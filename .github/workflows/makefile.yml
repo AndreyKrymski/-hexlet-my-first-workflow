@@ -7,8 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: start
-      run: start
     - name: make test
       run: test
     - name: make lint
